@@ -1,0 +1,46 @@
+<div class="home-page-box">
+    <div class="home-page">
+        <div class="home-page-top">
+            <div class="img-avatar-box">
+                <img src="../../../assets/images/avata-dn.png" alt="avatar" class="img-avatar">
+            </div>
+            <div class="home-page__titles">
+                <div class="home-page__title" style="font-size: 26px; font-weight: bold;">Dương Nguyễn Rivewer</div>
+                <div class="home-page__title" >Liên hệ: nguyentrongduong1098@gmail.com</div>
+            </div>
+            <div class="home-page__socials">
+                <div class="home-page__social" (click)="handleClick('facebook')">
+                    <img src="../../../assets/icons/facebook-icon.png" alt="icon-facebook" class="icon-facebook">
+                    <p style="margin: auto 0px;">Link Facebook</p>
+                </div>
+                <div class="home-page__social" (click)="handleClick('tiktok')">
+                    <img src="../../../assets/icons/tiktok-icon.png" alt="icon-tiktok" class="icon-tiktok">
+                    <p style="margin: auto 0px;">Link Tiktok</p>
+                </div>
+                <div class="home-page__social" routerLink="/Home">
+                    <img src="../../../assets/icons/tiktok-icon.png" alt="icon-tiktok" class="icon-tiktok">
+                    <p style="margin: auto 0px;">Home page</p>
+                </div>
+                <div class="home-page__social" routerLink="/About">
+                    <img src="../../../assets/icons/tiktok-icon.png" alt="icon-tiktok" class="icon-tiktok">
+                    <p style="margin: auto 0px;">About page</p>
+                </div>
+                <div class="home-page__social" routerLink="/ViewPanorama">
+                    <img src="../../../assets/icons/tiktok-icon.png" alt="icon-tiktok" class="icon-tiktok">
+                    <p style="margin: auto 0px;">ViewPanorama pageaaaaaaaaaaaaaa</p>
+                </div>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+        <!-- <div class="home-page-body">
+            <div *ngFor="let item of list" class="home-page__product">
+                <div class="product__item" (click)="handleShowDialog(item)">
+                    <div class="product__item-images">
+                        <img src="{{item.image}}" alt="image-item" class="product__item-image">
+                    </div>
+                    <div class="product__item-description">{{item.description}}</div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>
