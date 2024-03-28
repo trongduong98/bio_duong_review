@@ -1,31 +1,25 @@
 <div class="home-page-box">
     <div class="home-page">
         <div class="home-page-top">
-            <div class="img-avatar-box">
-                <img src="../../../assets/images/avata-dn.png" alt="avatar" class="img-avatar">
-            </div>
-            <div class="home-page__titles">
-                <div class="home-page__title" style="font-size: 26px; font-weight: bold;">Dương Nguyễn Rivewer</div>
-                <div class="home-page__title" >Liên hệ: nguyentrongduong1098@gmail.com</div>
-            </div>
-            <div class="home-page__socials">
-                <div class="home-page__social" (click)="handleClick('facebook')">
-                    <img src="../../../assets/icons/facebook-icon.png" alt="icon-facebook" class="icon-facebook">
-                    <p style="margin: auto 0px;">Link Facebook</p>
-                </div>
-                <div class="home-page__social" (click)="handleClick('tiktok')">
-                    <img src="../../../assets/icons/tiktok-icon.png" alt="icon-tiktok" class="icon-tiktok">
-                    <p style="margin: auto 0px;">Link Tiktok</p>
-                </div>
-                <div class="home-page__social">
-                    <img src="../../../assets/icons/tiktok-icon.png" alt="icon-tiktok" class="icon-tiktok">
-                    <p style="margin: auto 0px;">Home page</p>
-                </div>
-                <div class="home-page__social">
-                    <img src="../../../assets/icons/tiktok-icon.png" alt="icon-tiktok" class="icon-tiktok">
-                    <p style="margin: auto 0px;">About page</p>
+            <div class="info-box d-flex-space-between">
+                <img src="../../../assets/images/avata-dn.png" alt="avatar" class="info-box_avatar">
+                <div class="info-box_email">
+                    <div class="info_name">Nguyễn Trọng Dương</div>
+                    <div class="info_email">Liên hệ: nguyentrongduongit@gmail.com</div>
+                    <div class="d-flex-space-between socials">
+                        <div class="btn-socials" (click)="handleClick('tiktok')">
+                            <img src="../../../assets/icons/icon-tiktok.png" alt="icon-tiktok" class="icon-tiktok">
+                        </div>
+                        <div class="btn-socials" (click)="handleClick('facebook')">
+                            <img src="../../../assets/icons/icon-facebook.png" alt="icon-facebook" class="icon-facebook">
+                        </div>
+                        <div class="btn-socials" (click)="handleClick('instagram')">
+                            <img src="../../../assets/icons/icon-instagram.png" alt="icon-instagram" class="icon-instagram">
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="d-flex-center title_review">Tham khảo các sản phẩm mình đã review ở bên dưới 👇</div>
         </div>
     </div>
 </div>

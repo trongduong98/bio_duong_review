@@ -24,10 +24,13 @@ export class BioComponentComponent implements OnInit {
   public handleClick(eventName: string) {
     switch(eventName) {
       case 'facebook':
-        window.open("https://www.facebook.com/NguyenTrongDuong.CaptainNui");
+        window.open("https://www.facebook.com/NguyenTrongDuong.vn");
         break;
       case 'tiktok':
-        window.open("https://www.tiktok.com/@duongnguyenreviewer");
+        window.open("https://www.tiktok.com/@ng.tr.duong_review");
+        break;
+      case 'instagram':
+        window.open("https://www.instagram.com/_duongnguyen.97");
         break;
       default:
         break;
