@@ -1,0 +1,7 @@
+export const product_fashion = [
+    { id: 0, title: 'Dép nam da bò dập vân', description: 'Dép nam da bò dập vân , đế doctor cao su đúc nguyên khối', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lg1qn9p2vi0nf2', link: 'https://shope.ee/9exrIjCx0d'},
+    { id: 1, title: 'Kính Mát phân cực Polarized', description: 'Kính Mát Hợp Kim Shady Nam Tròng Phân Cực Polarized - PK210 (NhiềuMàu)', image: 'https://down-vn.img.susercontent.com/file/67187e188599a77e236f5c704b19f413', link: 'https://shope.ee/30QxMZe20C'},
+    { id: 2, title: 'Kính mát phân cực VEITHDIA', description: 'Kính mát phân cực VEITHDIA 8259 chống tia UV400 phong cách vintage thời trang cao cấp cho nam', image: 'https://down-vn.img.susercontent.com/file/96dc6c292754734405787d5be7b1c173', link: 'https://shope.ee/2fo6y1QgwP'},
+    { id: 3, title: 'Áo khoác gió chống nước', description: 'Áo khoác gió nam 2 lớp chống nước 2023 , chất gió tráng bạc, chống mưa, chống gió, ngăn tia UV tuyệt đối', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lm70cyol8usf01', link: 'https://shope.ee/3VNDxgXPyT'},
+    { id: 4, title: 'Túi bao tử MLB', description: 'Túi bao tử đeo chéo MLB bản mới 2022', image: 'https://down-vn.img.susercontent.com/file/d9bb96436a9e1db74c9de15e8595189d', link: 'https://shope.ee/7fCmvU5G4x'},
+];

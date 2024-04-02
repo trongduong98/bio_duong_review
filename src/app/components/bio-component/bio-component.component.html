@@ -21,5 +21,28 @@
             </div>
             <div class="d-flex-center title_review">Tham khảo các sản phẩm mình đã review ở bên dưới 👇</div>
         </div>
+        <div class="product-nav">
+            <div class="btn-technological" [ngClass]="loader.isPage.value == 1 ? 'active_class' : 'unActive_class'" (click)="handleSelectPage(1)">Công nghệ</div>
+            <div class="btn-houseware" [ngClass]="loader.isPage.value == 2 ? 'active_class' : 'unActive_class'" (click)="handleSelectPage(2)">Gia dụng</div>
+            <div class="btn-fashion" [ngClass]="loader.isPage.value == 3 ? 'active_class' : 'unActive_class'" (click)="handleSelectPage(3)">Thời trang</div>
+            <div class="btn-other" [ngClass]="loader.isPage.value == 4 ? 'active_class' : 'unActive_class'" (click)="handleSelectPage(4)">Khác</div>
+        </div>
+        <div class="d-flex-center hide-scroll scroll-bar-product">
+            <div class="product-list">
+                <div class="product-items">
+                    <div *ngFor="let item of list" class="products d-flex-center" (click)="handleClickProduct(item.link)">
+                        <div class="products-left d-flex-center">
+                            <img [src]="item.image" class="product-image">
+                        </div>
+                        <div class="products-right">
+                            <div style="padding: 0px 10px;">
+                                <div class="products-right_title">{{item.title}}</div>
+                                <div class="products-right_description">{{item.description}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

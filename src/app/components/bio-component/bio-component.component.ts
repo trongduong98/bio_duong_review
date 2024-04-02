@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import * as Item from '../../../assets/json/index';
+import { LoaderService } from 'src/app/service/loader.service';
 
 @Component({
   selector: 'app-bio-component',
@@ -6,17 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bio-component.component.scss']
 })
 export class BioComponentComponent implements OnInit {
-
-  public isDisplay: boolean = false;
-  public title: string = "";
-  public image: string = "";
-  public list: any = [
-    { id: 1, name: "Panorama 01", description: "Panorama 01", link: "../assets/images/panorama01.jpg", image:"../assets/images/panorama01.jpg" },
-    { id: 2, name: "Panorama 02", description: "Panorama 02", link: "../assets/images/panorama02.jpg", image:"../assets/images/panorama02.jpg" },
-    { id: 3, name: "Panorama 03", description: "Panorama 03", link: "../assets/images/panorama03.jpg", image:"../assets/images/panorama03.jpg" },
-    { id: 4, name: "Panorama 04", description: "Panorama 04", link: "../assets/images/panorama04.jpg", image:"../assets/images/panorama04.jpg" },
-  ];
-  constructor() { }
+  
+  public list: any = Item.technological.product_technological;
+  constructor(public loader: LoaderService) { }
 
   ngOnInit(): void {
   }
@@ -37,17 +31,28 @@ export class BioComponentComponent implements OnInit {
     }
   }
 
-  public handleShowDialog(item: any) {
-    this.isDisplay = true;
-    console.log('item.name', item.name);
-    console.log('item.image', item.image);
-    
-    this.title = item.name;
-    this.image = item.image;
+  public handleSelectPage(pageSelect: number) {
+    switch(pageSelect) {
+      case 1:
+        this.list = Item.technological.product_technological;
+        break;
+      case 2:
+        this.list = Item.houseWare.product_houseWare;
+        break;
+      case 3:
+        this.list = Item.fashion.product_fashion;
+        break;
+      case 4:
+        this.list = Item.other.product_other;
+        break;
+      default:
+        break;
+    }
+    this.loader.isPage.next(pageSelect);
   }
 
-  public handleCloseDialog(isDisplay: boolean) {
-    this.isDisplay = isDisplay;
+  public handleClickProduct(link: any) {
+    window.open(link);
   }
 
 }

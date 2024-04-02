@@ -1,0 +1,7 @@
+export const product_houseWare = [
+    { id: 0, title: 'JIASHI Máy làm sạch mắt kính dùng sóng siêu', description: 'JIASHI Máy làm sạch mắt kính dùng sóng siêu âm cỡ nhỏ thiết kế di động sử dụng tại nhà', image: 'https://down-vn.img.susercontent.com/file/04e249885368792f71e0cee0243c4fa5', link: 'https://shope.ee/9UeR5d2J0q'},
+    { id: 1, title: 'Quạt phun sương để bàn mini', description: 'QUẠT ĐIỀU HÒA PHUN SƯƠNG ĐỂ BÀN MINI ĐA CHỨC NĂNG 3 Chế Độ Tích Hợp Led', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnthrokyuagq0f', link: 'https://shope.ee/7KZwVuv5s0'},
+    { id: 2, title: 'Ấm đun nước siêu tốc', description: 'ICON Ấm đun siêu tốc, Bình đun nước siêu tốc 2.3Lấm siêu tốc ấm điện', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lr8iahakah0997', link: 'https://shope.ee/7fCmucrC8h'},
+    { id: 3, title: 'lõi lọc bụi thay thế cho máy hút bụi Deerma', description: 'Bộ lọc, lõi lọc bụi thay thế cho máy hút bụi Deerma DX118C Pro', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnhzd5zt5bl929', link: 'https://shope.ee/50C1jpTrHh'},
+    { id: 4, title: 'Ổ Cắm Điện Chia 3', description: 'Ổ Cắm Điện Chia 3 Đa Năng, Xoay 180 Độ DUASHOP', image: 'https://down-vn.img.susercontent.com/file/sg-11134201-22110-tvqawxwxcbkv67', link: 'https://shope.ee/3L3nksKFGb'},
+];

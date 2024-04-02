@@ -1,0 +1,7 @@
+export const product_technological = [
+    { id: 0, title: 'Tay Cầm Game', description: 'Tay Cầm Game FO4 Hỗ Trợ TV BOX / PC / Laptop / Smart Phone, GamePad P5S Dual Sock', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lk26jkvzfn5u75', link: 'https://shope.ee/20YQ98DdjF'},
+    { id: 1, title: 'Dây Cáp Sạc Nhanh 100w', description: 'Dây Cáp Sạc Nhanh pd100w pd100w Màn Hình Kỹ Thuật Số 3 Cho apple android', image: 'https://down-vn.img.susercontent.com/file/cn-11134301-7r98o-ll63c0tsxg5w4e', link: 'https://shope.ee/4KwKvZrzFC'},
+    { id: 2, title: 'Củ Sạc Nhanh essager 33w', description: 'Củ Sạc Nhanh essager 33w Cổng type c pd Cho ip 14 13 12 11 pro max xs 8 p', image: 'https://down-vn.img.susercontent.com/file/th-11134201-23020-ayxyg7pjgknv98', link: 'https://shope.ee/9pHHTqbjwK'},
+    { id: 3, title: 'Quạt Tích Điện', description: 'Quạt Tích Điện Để Bàn Xếp Gọn Được Cao Cấp ⚡️𝐅𝐑𝐄𝐄 𝐒𝐇𝐈𝐏⚡️', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfkp0td1jzpg15', link: 'https://shope.ee/3q04KxHPvf'},
+    { id: 4, title: 'bộ sạc nhanh 20w', description: 'bộ sạc nhanh ( Củ P.D 20.W + Dây sạc nhanh Typ.e-C ) không nóng máy, an toàn ổn định dành cho điện thoại', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqn61xwfhx3mda', link: 'https://shope.ee/1LIjMTjpYU'},
+];

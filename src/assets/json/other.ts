@@ -1,0 +1,7 @@
+export const product_other = [
+    { id: 0, title: 'SMATRUL Công tắc thông minh', description: 'SMATRUL Công tắc thông minh Smart Swith Wifi Rf433mhz thông minh điều khiển từ xa qua điện thoại, Điều Khiển Bằng Giọng Nói', image: 'https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lobygs3ys0tfe8', link: 'https://shope.ee/8KSTitObfJ'},
+    { id: 1, title: 'hộp đựng giày', description: 'Sneaker Box, hộp đựng giày thông minh ( hàng tháo rời)', image: 'https://down-vn.img.susercontent.com/file/088f026046a93add12ba21d686291586', link: 'https://shope.ee/VjcOlTktb'},
+    { id: 2, title: 'Đèn bắt muỗi UV', description: 'Đèn bắt muỗi Uv MaxSpect - Máy bắt muỗi sử dụng quạt và ánh sáng Uv - Máy bắt côn trùng mẫu mới nhất MBM', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lso2z7mc5v446f', link: 'https://shope.ee/40JUZKQfon'},
+    { id: 3, title: 'Quạt Tích Điện', description: 'Quạt Tích Điện Để Bàn Xếp Gọn Được Cao Cấp ⚡️𝐅𝐑𝐄𝐄 𝐒𝐇𝐈𝐏⚡️', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfkp0td1jzpg15', link: 'https://shope.ee/3q04KxHPvf'},
+    { id: 4, title: 'bộ sạc nhanh 20w', description: 'bộ sạc nhanh ( Củ P.D 20.W + Dây sạc nhanh Typ.e-C ) không nóng máy, an toàn ổn định dành cho điện thoại', image: 'https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lqn61xwfhx3mda', link: 'https://shope.ee/1LIjMTjpYU'},
+];

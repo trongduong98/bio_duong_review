@@ -11,6 +11,7 @@
     border-radius: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
+    height: 96%;
 }
 
 .info-box {
@@ -97,21 +98,144 @@
     width: 100%;
 }
 
+.product-list {
+    width: 96%;
+    height: 100%;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.products {
+    width: 100%;
+    height: 190px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.199);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 16px;
+}
+
+.products-left {
+    background-color: #ffffff;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    .product-image {
+        height: 100%;
+        width: auto;
+        border-radius: 10px;
+    }
+}
+
+.products-right {
+    width: 60%;
+    height: 100%;
+    margin-top: 80px;
+    .products-right_title {
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .products-right_description{
+        text-align: center;
+        margin-top: 16px;
+        font-size: 16px;
+    }
+}
+
+.scroll-bar-product {
+    height: 68%; 
+    overflow: auto;
+}
+
+.product-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin-bottom: 10px;
+    div {
+        font-weight: 600;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    div:hover {
+        cursor: pointer;
+    }
+}
+
+.active_class {
+    background-color: #ffffff;
+    color: #000000;
+}
+.unActive_class {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.product-items {
+    margin-top: 6px;
+}
+
+
 @media screen and (max-width: 768px) {
+    .info-box_email {
+        width: 66%;
+    }
+
+    .info_email {
+        font-size: 12px;
+    }
+
+    .info_name {
+        font-size: 16px        
+    }
+
     .home-page {
         width: 90%;
     }
+
     .info-box {
         padding: 0px;
     }
+
     .info-box_avatar {
         width: 28%;
         border-radius: 28%;
     }
+
     .title_review {
         font-size: 12px;
     }
+
     .socials {
         padding: 0px 20px 0px 0px;
+    }
+
+    .products {
+        height: 90px;
+    }
+
+    .products-right {
+        margin-top: 16px;
+        .products-right_title{
+            font-size: 16px;
+        }
+        .products-right_description{
+            font-size: 12px;
+            display: none;
+        }
+    }
+
+    .scroll-bar-product {
+        height: 69%;
+    }
+
+    .product-nav {
+        padding: 0 10px;
+        div {
+            padding: 6px;
+            font-weight: 530;
+        }
     }
 }
